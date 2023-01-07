@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+
+/* header part */
+.header {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    height: 110vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.banner {
+    top: 25%;
+    text-align: right;
+    position: absolute;
+    right: 14%;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    width: 500px;
+    margin-bottom: 24px;
+}
+
+.banner-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 26px;
+    width: 500px;
+    margin-bottom: 32px;
+}
+
+.btn-secondary {
+    background-color: #f3fdff;
+    font-weight: 700;
+    font-size: 20px;
+    border: 2px solid rgb(0, 122, 209);
+    border-radius: 5px;
+    padding: 18px 35px;
+    height: 64px;
+    color: rgb(0, 122, 209);
+    transition-duration: 0.2s;
+    margin-left: 35px;
+
+}
+
+.btn-secondary:hover {
+    background-color: rgb(0, 122, 209);
+    color: white;
+}
+
+/* End of Header part */
+
+/* Body part */
+.failure {
+    display: flex;
+    align-items: center;
+    margin: 131px 300px;
+}
+
+.failure-text {
+    margin-left: 250px;
+}
+
+.failure-title {
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    width: 300px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failure-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    width: 416px;
+    margin-bottom: 16px;
+}
+
+.failure-points {
+    list-style: none;
+    font-size: 18px;
+
+}
+
+li {
+    margin: 10px -40px;
+}
+
+.fa-check {
+    color: rgb(47, 255, 102);
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 230px;
+    margin-left: 230px;
+    margin-top: 50px;
+}
+
+/* End of Body part */
+
+/* Plan Part */
+.my-plans {
+    margin: 130px 0px;
+}
+
+.plan-title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.planning-development {
+    text-align: center;
+}
+
+.planning-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+    margin-top: 24px;
+    text-align: center;
+
+}
+
+.planning-description {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+    text-align: center;
+}
+
+/* End of Plan Part */
+
+/* 2nd Banner */
+.banner2 {
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgb(0, 122, 209)), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 75%;
+    border-radius: 20px;
+    margin: 130px 230px;
+}
+
+.banner-title-2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    width: 500px;
+    padding: 100px 100px;
+    margin-bottom: -80px;
+}
+
+.btn-secondary2 {
+    background-color: #f3fdff;
+    font-weight: 600;
+    font-size: 20px;
+    border: 2px solid rgb(237, 238, 239);
+    border-radius: 5px;
+    padding: 18px 35px;
+    height: 64px;
+    color: rgb(0, 122, 209);
+    transition-duration: 0.2s;
+    margin-left: 100px;
+}
+
+.btn-secondary2:hover {
+    background-color: rgb(0, 122, 209);
+    color: white;
+}
+
+/* End of 2nd Banner Part */
+
+/* Footer Part */
+footer {
+    width: 100%;
+    height: 70vh;
+    background: #151414;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+    line-height: 1.8em;
+}
+
+.footer {
+    padding-top: 130px;
+    display: flex;
+}
+
+.left-footer {
+    margin: 0px 230px;
+
+
+}
+
+.left-footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.left-footer-desc {
+    margin-top: 16px;
+    width: 500px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.left-footer-contact1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+
+}
+
+.left-footer-contact2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.right-footer {
+    margin-left: 200px;
+}
+
+.right-footer-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 29px;
+}
+
+.right-footer .btn-secondary2 {
+    margin-left: 0px;
+    border: 2px solid rgb(0, 122, 209);
+}
+
+.right-footer input {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 21px 21px;
+    border-radius: 5px;
+    width: 330px;
+
+}
+
+.left-footer a {
+    text-decoration: none;
+    justify-content: space-evenly;
+    margin-right: 20px;
+
+}
